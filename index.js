@@ -10,7 +10,7 @@ function addItem(){
     let element = document.createElement('div');
     element.setAttribute("id", "item_in_list");
     element.innerText = item.value;
-    let element_date = document.createElement('div')
+    let element_date = document.createElement('div');
     element_date.setAttribute("id", "date_in_list");
     element_date.innerText = date.value;
     let to_do_list = document.getElementById('todo_list');

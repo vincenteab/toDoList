@@ -12,16 +12,16 @@
 .input_item {
   margin-right: 5px;
 }
-#item_in_list {
-  width: fit-content;
-  position: relative;
-  left: 17.2rem;
-}
 
+#parent_container {
+  display: flex;
+}
 #todo_list {
-  display: contents;
+  flex: 1;
+  margin-left: 278px;
 }
 
 #todo_list_date {
-  position: relative;
+  flex: 1;
+  margin-right: 171px;
 }
