@@ -1,0 +1,27 @@
+.to-do-list_header {
+  text-align: center;
+}
+.initial_todo_list {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.add_button {
+  margin-right: 5px;
+}
+.input_item {
+  margin-right: 5px;
+}
+#item_in_list {
+  width: fit-content;
+  position: relative;
+  left: 17.2rem;
+}
+
+#todo_list {
+  display: contents;
+}
+
+#todo_list_date {
+  position: relative;
+}

@@ -4,25 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To do list</title>
-    <style>
-      .to-do-list_header {
-        text-align: center;
-      }
-      .initial_todo_list {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-      }
-      .add_button {
-        margin-right: 5px;
-      }
-      #todo_list {
-        text-align: center;
-      }
-      .input_item {
-        margin-right: 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1 class="to-do-list_header">This is your to do list</h1>
@@ -32,6 +14,7 @@
       <input id="date_picker" class="input_date" type="date" />
     </div>
     <div id="todo_list"></div>
+    <div id="todo_list_date"></div>
     <script src="index.js"></script>
   </body>
 </html>
