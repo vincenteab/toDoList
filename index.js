@@ -8,6 +8,8 @@ function addItem(){
     let to_do_list = document.getElementById('todo_list');
     to_do_list.appendChild(element);
     document.getElementById('new_item').value = "";
+    console.log(allItems);
+
 
 }
 
