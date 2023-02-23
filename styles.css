@@ -13,15 +13,6 @@
   margin-right: 5px;
 }
 
-#parent_container {
-  display: flex;
-}
-#todo_list {
-  flex: 1;
-  margin-left: 278px;
-}
-
-#todo_list_date {
-  flex: 1;
-  margin-right: 171px;
+#table_list{
+  width: 20px;
 }
