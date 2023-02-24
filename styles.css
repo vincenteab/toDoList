@@ -1,10 +1,14 @@
 .to-do-list_header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .initial_todo_list {
   align-items: center;
   justify-content: center;
   display: flex;
+  padding-bottom: 20px;
 }
 .add_button {
   margin-right: 5px;
@@ -22,13 +26,13 @@
 }
 
 #theader{
-  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 20px;
-  padding-left: 20px;
-
+  padding-left: 55px;
+  
 }
+
 
 
 #item_in_list{
@@ -36,8 +40,9 @@
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  width: fit-content;
   text-align: center;
+  overflow-wrap: break-word;
+
 }
 
 #date_in_list{
