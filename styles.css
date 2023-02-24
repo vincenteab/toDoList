@@ -14,5 +14,28 @@
 }
 
 #table_list{
-  width: 20px;
+  width: 500px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  
+}
+
+#theader{
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:fit-content;
+}
+
+.list_header{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+#item_in_list{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: fit-content;
 }

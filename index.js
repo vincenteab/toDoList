@@ -25,6 +25,7 @@ function addItem(){
     document.getElementById('new_item').value = "";
     document.getElementById("date_picker").value = null;
 
+    
 
 
 }
